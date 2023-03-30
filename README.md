@@ -1,4 +1,4 @@
- [![PythonAnywhere](https://Gowtham007.pythonanywhere.com/Python.png)](https://Gowtham007.pythonanywhere.com/)
+ [![PythonAnywhere](https://Gowtham007.pythonanywhere.com/static/images/python.png)](https://Gowtham007.pythonanywhere.com/)
 # E-Commerce-Project
 
 Admin Panel:
