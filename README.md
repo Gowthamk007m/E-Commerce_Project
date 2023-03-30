@@ -1,6 +1,6 @@
- [![PythonAnywhere](https://user-images.githubusercontent.com/116723241/228731024-fdd2e91c-399d-48df-b5f1-dd9bdbb24ba0.png)](https://Gowtham007.pythonanywhere.com/)
+ [![PythonAnywhere](https://user-images.githubusercontent.com/116723241/228731433-dcc5fc58-554f-4b01-a32c-20f913450528.png)](https://Gowtham007.pythonanywhere.com/)
 # E-Commerce-Project
-
+![python (1)]
 Admin Panel:
 You can start adding products, processing orders, and managing inventory through the admin panel. User authentication and authorization for cart is also implemented.
 
