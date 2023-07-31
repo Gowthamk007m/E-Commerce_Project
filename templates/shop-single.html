@@ -240,10 +240,10 @@ https://templatemo.com/tm-559-zay-shop
             </div>
 
             <!--Start Carousel Wrapper-->
-            <div id="carousel-related-product" style="background-color: #D19C97;">
+<div style="display: flex; justify-content: space-evenly;background: #f7f1f1;">
 
                 {% for i in related %}
-                <div class="p-2 pb-3">
+                <div class="p-2 pb-3" style="width: 30%;">
                     <div class="product-wap card rounded-0">
                         <div class="card rounded-0">
                             <img class="card-img rounded-0 img-fluid" style="height: 300px;" src="{{i.image.url}}">
@@ -282,6 +282,7 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
 
                 {% endfor %}
+</div>
 
         </div>
             </div>

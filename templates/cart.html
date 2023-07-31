@@ -58,7 +58,6 @@
 
 
     <!-- Cart Start -->
-    {% if user.is_authenticated %}
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
             <div class="col-lg-8 table-responsive mb-5">
@@ -128,19 +127,24 @@
                             <h5 class="font-weight-bold">Total</h5>
                             <h5 class="font-weight-bold">Rs.{{t}}</h5>
                         </div>
+
+    {% if user.is_authenticated %}
                         <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+    {% else %}
+    <div class="container" >
+                        <button class="btn btn-block btn-primary my-3 py-3"><a href="{% url 'login' %}" style="text-decoration: none;"><h5 style="text-decoration: none;">Login to countiue</h5> </a></button>
+
+    </div>
+    {% endif %}
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    {% else %}
-    <div class="container" >
 
-         <center><a href="{% url 'login' %}"><h3 style="">Login to countiue</h3> </a></center>
-    </div>
+         
    
-    {% endif %}
     <!-- Cart End -->
 
 
